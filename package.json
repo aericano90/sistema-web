@@ -1,0 +1,18 @@
+{
+  "name": "curriculo-seguro",
+  "version": "1.0.0",
+  "description": "Sistema web seguro para cadastro, listagem e consulta de curriculos com Node.js, Express e SQLite.",
+  "main": "server.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "ejs": "^3.1.10",
+    "express": "^4.19.2",
+    "helmet": "^7.1.0",
+    "sqlite3": "^5.1.7"
+  }
+}
